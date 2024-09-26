@@ -14,10 +14,7 @@ for i in arr_a:
         count_a += 1
         continue
 
-
-
     stepen = 2 ** count_a
     final_int = final_int + stepen
     count_a +=1
-
 print(final_int)
